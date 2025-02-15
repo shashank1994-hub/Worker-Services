@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(16, 110, 110);
+  }
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  .navbar ul li {
+    margin-right: 15px;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  nav h5{
+    color: white;
+  }
+  

@@ -1,0 +1,89 @@
+
+.admin-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-container h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #6a11cb;
+    outline: none;
+  }
+  
+  
+  .checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .checkbox input {
+    width: 18px;
+    height: 18px;
+  }
+  
+  
+  .admin-form button {
+    padding: 12px 20px;
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .admin-form button:hover {
+    background-color: #2575fc;
+  }
+  
+  
+  .message {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #34a853; 
+  }
+  
+  .message.error {
+    color: #ea4335; 
+  }
